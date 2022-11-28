@@ -1,6 +1,7 @@
 import { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import Navbar from "./components/Navbar/Navbar";
+import VidContent from "./components/VidContent/VidContent";
 
 const api = "https://swapi.py4e.com/api";
 
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <div className="app">
       <Navbar />
+      <VidContent />
     </div>
   );
 };
