@@ -5,7 +5,7 @@ const VidContent = () => {
   return (
     <div className="video-container">
       <div className="content">
-        <h1 className="para">Witness the biggest conflict in the galaxy.</h1>
+        <h1>Witness the biggest conflict in the galaxy.</h1>
       </div>
       <video autoPlay muted loop className="video-content">
         <source src={backgroundSW} type="video/mp4" />
