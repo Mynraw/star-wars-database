@@ -29,6 +29,28 @@ const Navbar = () => {
           <img src={StarWarsLogo} alt=""></img>
         </a>
       </div>
+      <div className="navs">
+        <ul>
+          <li>
+            <a href={"s"}>People</a>
+          </li>
+          <li>
+            <a href={"s"}>Planets</a>
+          </li>
+          <li>
+            <a href={"s"}>Species</a>
+          </li>
+          <li>
+            <a href={"s"}>Vehicles</a>
+          </li>
+          <li>
+            <a href={"s"}>Starships</a>
+          </li>
+          <li>
+            <a href={"s"}>Films</a>
+          </li>
+        </ul>
+      </div>
       <nav className="nav-link">
         <ul>
           <li>
